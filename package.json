@@ -1,0 +1,25 @@
+{
+  "name": "grassy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\"",
+    "startsass": "sass --watch grassy.scss ../grassy.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simalicrum/grassy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simalicrum/grassy/issues"
+  },
+  "homepage": "https://github.com/simalicrum/grassy#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Norse;
+  src: url(fonts/Norse-Bold.otf);
+}
+
+#odin-logo {
+  height: 60px;
+}
+
+.logo-text {
+  color: #ce973e;
+  font-family: Norse;
+  font-size: 24px;
+}
+
+#navbar {
+  height: 30px;
+  width: 30px;
+  background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%270%200%2032%2032%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20stroke%3D%27%236abfc3%27%20stroke-width%3D%272%27%20stroke-linecap%3D%27round%27%20stroke-miterlimit%3D%2710%27%20d%3D%27M4%208h24M4%2016h24M4%2024h24%27%2F%3E%3C%2Fsvg%3E);
+  background-repeat: no-repeat;
+}
+
+#home-isometric {
+  padding: 0;
+}
+
+.icon {
+  color: #ce973e;
+  font-size: 24px;
+}
+
+.photo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.story {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.story a {
+  color: #ce973e;
+}
+
+#subjects {
+  background: #f3f3f3;
+}
+
+.subject-card {
+  background: white;
+  box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.05);
+}
+
+.subject-card img {
+  height: 160px;
+}
+
+#stories {
+  background-image: linear-gradient(to bottom, #fff, #eee);
+}
+
+#footer-logo {
+  display: none;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
